@@ -9,7 +9,7 @@ public class MoodAnalyser {
         System.out.println("My Mood is : " + sadMood);
     }
 
-    String analyseMood(String message) {
+    public String analyseMood(String message) {
         if (message.toLowerCase().contains("sad"))
             return "SAD";
         else if (message.toLowerCase().contains("happy"))
